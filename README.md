@@ -28,6 +28,7 @@ Aliexpress page: https://aliexpress.ru/item/4000550036826.html
 In the DPSmaster application select "TCP" and enter correct ESP8266's local IP address.
 
 Download page: https://profimaxblog.ru/dpsmaster/
+
 ![DPSmaster](/Pictures/DPSmaster.jpg)
 
 Enter your Wi-Fi credentials.
