@@ -7,7 +7,7 @@
 ## What is RD DPS5020
 RD DPS5020 is an inexpensive Chinese power supply sold on Aliexpress.
 RD official store page: https://aliexpress.ru/item/32821185351.html
-![DPS5020](/Pictures/DPS5020U.jpg)
+![DPS5020](/Pictures/dps5020.jpg)
     
 ## How it works
 1. An external TCP client (DPSmaster - Windows PC application) sends a Modbus request to the ESP8266's local IP address.
@@ -16,11 +16,14 @@ RD official store page: https://aliexpress.ru/item/32821185351.html
 ## How to use
 + Visual Studio Code project in the **VSCode project** folder.
 + Arduino IDE project in the **Adruino project** folder.
+
 You can use any board with ESP8266. I use this one:
+
 Aliexpress page: https://aliexpress.ru/item/4000550036826.html
 ![NodeMCU](/Pictures/NodeMCU.jpg)
 
 In the DPSmaster application select "TCP" and enter correct ESP8266's local IP address.
+
 Download page: https://profimaxblog.ru/dpsmaster/
 ![DPSmaster](/Pictures/DPSmaster.jpg)
 
