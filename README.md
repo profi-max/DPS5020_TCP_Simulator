@@ -20,10 +20,17 @@ RD official store page: https://aliexpress.ru/item/32821185351.html
 + Visual Studio Code project in the **VSCode project** folder.
 + Arduino IDE project in the **Adruino project** folder.
 
-You can use any board with ESP8266. I use this one:
+Enter your Wi-Fi credentials.
+```
+WiFi.begin("ssidname","password");
+```
 
+You can use any board with ESP8266. I use this one:
+<details>
+<summary>Show the  board</summary>
 Aliexpress page: https://aliexpress.ru/item/4000550036826.html
-![NodeMCU](/Pictures/NodeMCU.jpg)
+<image src="/Pictures/NodeMCU.jpg" alt="NodeMCU">
+</details>
 
 In the DPSmaster application select "TCP" and enter correct ESP8266's local IP address.
 
@@ -31,10 +38,6 @@ Download page: https://profimaxblog.ru/dpsmaster/
 
 ![DPSmaster](/Pictures/DPSmaster.jpg)
 
-Enter your Wi-Fi credentials.
-```
-WiFi.begin("ssidname","password");
-```
 ## How to find out the local Wi-Fi IP address of ESP8266.
 Open the router's web page in a browser. View the list of clients.
 
