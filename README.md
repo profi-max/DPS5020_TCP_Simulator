@@ -13,8 +13,8 @@ RD official store page: https://aliexpress.ru/item/32821185351.html
 </details>
 
 ## How it works
-1. An external TCP client (DPSmaster - Windows PC application) sends a Modbus request to the ESP8266's local IP address.
-2. The ESP8266 transmits the response to the TCP client via WiFi.
+1. An external TCP client (DPSmaster - Windows PC application) sends a Modbus request to the ESP8266's local IP address over WiFi.
+2. The ESP8266 answers the TCP client.
 
 ## How to use
 + Visual Studio Code project in the **VSCode project** folder.
